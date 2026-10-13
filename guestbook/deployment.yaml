@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: guestbook-ui
-        image: docker.io/lwolf/kubernetes-cookbook:bg-frontend
+        image: registry.k8s.io/pause:3.9
         ports:
         - containerPort: 80
