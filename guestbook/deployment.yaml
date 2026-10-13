@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: guestbook-ui
-        image: gcr.io/heptio-images/ks-guestbook-demo:0.1
+        image: docker.io/lwolf/kubernetes-cookbook:bg-frontend
         ports:
         - containerPort: 80
